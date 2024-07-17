@@ -10,6 +10,22 @@ html {
   color: #fff;
 }
 
+input,
+select {
+  all: unset;
+  background-color: #090908;
+  color: rgb(255, 255, 255);
+  letter-spacing: -0.02em;
+  line-height: 120%;
+}
+
+input[type="text"]:focus {
+  background-color: #090908;
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+
+
 html,
 input,
 select,
